@@ -1,0 +1,106 @@
+Mysql:-day2
+=======
+Q:What are the difference between File Management System(FMS) and Database Management System(DBMS)
+1.high data redundancy(duplicate data)
+Reduce data redundancy
+
+2.difficult to maintain and update.
+Easy to maintain and updated 
+
+3.security is limited 
+Provides strong security mechanism.
+
+4.data sharing is difficult 
+Multiple users can access data simultaneously 
+
+5.no relationship between files.
+Support relationships between tables.
+
+6.bacup and recovery is difficult 
+Provides back and recovery features 
+
+7.suitable for small application 
+Suitable for small, medium and large applications 
+
+Q:what is the difference between a file system and a DBMS(IQ)
+———-
+a file system stores data in separate files may leas to data redundancy and security issues.
+A DBMS stores data ina structured manner using tables,reduces redundancy, provides security,
+supports multiple users,and ensures data consistency and integrity.
+
+Q2: what is data,field,record,database
+____________________________________
+What is data ?
+———
+Raw facts or figures without context 
+Example: 101,rohit,60000,hyd
+
+What is field?
+——-
+Smallest unit of data in database(column/attribute)
+Eg:-empid,emname,emsalary,emaddress
+
+What is record?
+——
+Collection of related fields(row/tuple).
+Eg:-(101,rohit,60000,hyd);
+organized collection of related records stored together.
+eg: in employee databse contain all employee details.
+
+what is dbms?
+
+a dbms is a software used to create,store,retrive,update and manage databases.
+
+Client-server-architecture
+_____
+In client-server arch they have 3 components such as 
+Client
+Server
+Protocol
+
+Client:-the role of the client in client-server arch is send request to 
+The server.and to get response from the server 
+
+Server:-server is a softwere the role of the server in client-server-arch is to take request from client 
+If the request is valid request then it will generate some response we can handover that response to client 
+If the client request is not a valid request then it will raise the errors.
+
+protocol: it has a set of rules and regulations , the role of the protocol in client server arc 
+is to sent request from client to server.
+
+Data models in DBMS:-
+———————
+Def:a data model defines how data is stored,organized and manipulated in a database 
+
+1.physical data model
+————
+Def:dascribes how data is physically stored in storage devices 
+Audience:database administrator 
+
+2.logical data model
+———
+Defines the structure of data (entities, attributes,relationships)
+Independent of physical storage areas.
+
+Audience:developers and data architects 
+
+3.hierachical data model
+———
+Data is represented as a tree structure (parent child relationships)
+
+Eg:-company—>department—>employees.
+
+4.network data model
+———
+Data is represented as graph with records(nodes)and relationships (edges)
+
+Eg:-student enrolled in multiple courses, courses teach by multiple professors
+
+5.⁠ ⁠relation data models(RDBMS)
+
+def: data is stored in tables(relations) with rows(tuple) and coloumns(attributes)
+
+eg: student(id,name,marks,dept_id)
+departments(dept_id,dept_name)
+
+
